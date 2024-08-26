@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+a{
+    color: black;
+    font-family: "Raleway";
+    text-decoration: none;
+    font-size: x-large;
+}
+.container{
+    display: grid;
+    grid-template-areas: "art1 art1 art2 art2"
+    "art3 art3 art4 art4"
+    "art5 art5 art4 art4";
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.one{
+    grid-area: art1;
+}
+.two{
+    grid-area: art2;
+}
+.three{
+    grid-area: art3;
+}
+.four{
+    grid-area: art4;
+}
+.five{
+    grid-area: art5;
+}
+h2{
+    text-align: center;
+    font-family: "raleway";
+}
+div{
+    text-align: center;
+}
+.jk{
+    height: 300px;
+    width: 300px;
+}
+.mad{
+    margin: 10px 80px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "raleway";
+}
+h3{
+    text-align: center;
+    font-family: "raleway";
+    color: red;
+}
+.foot{
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    color:white;
+    background-color: black;  
+}
+.foot:hover{
+    background-color: beige;
+}
+.end{
+    text-align: center;
+    text-decoration: none;
+}
+.and{
+    font-size: 20px;
+}
+input{
+    width: 60%;
+    height: 30px;
+}
+@media screen and (max-width:768px){
+.container{
+    display: flex;
+    flex-direction: column;
+   } 
+   .jk{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+   }
+}
